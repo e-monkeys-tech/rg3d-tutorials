@@ -6,3 +6,6 @@ edition = "2018"
 
 [dependencies]
 rg3d = "0.20.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]

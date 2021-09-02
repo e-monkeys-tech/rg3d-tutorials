@@ -7,3 +7,6 @@ edition = "2018"
 
 [dependencies]
 rg3d = { path = "../../rg3d" }
+
+[lib]
+crate-type = ["cdylib", "rlib"]

@@ -119,10 +119,10 @@
 [INFO]: Shader SpriteShader2D linked!
 
 [INFO]: Trying to load "data/models/barrel.FBX"
-[INFO]: FBX "data/models/barrel.FBX" loaded in 1 ms
-	- Parsing - 1 ms
+[INFO]: FBX "data/models/barrel.FBX" loaded in 9 ms
+	- Parsing - 4 ms
 	- DOM Prepare - 0 ms
-	- Conversion - 0 ms
+	- Conversion - 4 ms
 [INFO]: Model "data/models/barrel.FBX" is loaded!
 [INFO]: Starting resolve...
 [INFO]: Resolving graph...
@@ -137,28 +137,22 @@
 [INFO]: Model "data/models/scene.rgs" is loaded!
 [INFO]: Geometry for trimesh RigidBodyHandle(b774ac19-6c62-4244-94b4-39ea7899db03) was restored from node at handle [Idx: 2; Gen: 1]!
 [INFO]: Resource data/models/scene.rgs was successfully embedded into physics world!
-[INFO]: Texture "data/textures/barrel_normal.jpg" is loaded in 31.8388ms!
-[INFO]: Texture "data/textures/barrel.jpg" is loaded in 35.7221ms!
-[INFO]: Texture "data/textures/skybox/down.jpg" is loaded in 72.4686ms!
-[INFO]: Texture "data/textures/skybox/front.jpg" is loaded in 73.3721ms!
-[INFO]: Texture "data/textures/skybox/left.jpg" is loaded in 76.8093ms!
-[INFO]: Texture "data/textures/skybox/right.jpg" is loaded in 81.9713ms!
-[INFO]: Texture "data/textures/floor.jpg" is loaded in 85.4829ms!
-[INFO]: Texture "data/textures/skybox/up.jpg" is loaded in 86.9757ms!
-[INFO]: Texture "data/textures/skybox/back.jpg" is loaded in 90.6559ms!
+[INFO]: Texture "data/textures/barrel.jpg" is loaded in 647.0714ms!
+[INFO]: Texture "data/textures/barrel_normal.jpg" is loaded in 657.4201ms!
+[INFO]: Texture "data/textures/floor.jpg" is loaded in 1.9692799s!
+[INFO]: Texture "data/textures/skybox/right.jpg" is loaded in 1.8898606s!
+[INFO]: Texture "data/textures/skybox/left.jpg" is loaded in 1.9036554s!
+[INFO]: Texture "data/textures/skybox/up.jpg" is loaded in 1.9207961s!
+[INFO]: Texture "data/textures/skybox/back.jpg" is loaded in 1.924241s!
+[INFO]: Texture "data/textures/skybox/front.jpg" is loaded in 1.9580297s!
+[INFO]: Texture "data/textures/skybox/down.jpg" is loaded in 1.6447458s!
 [INFO]: Trying to load "data/models/m4.FBX"
-[INFO]: FBX "data/models/m4.FBX" loaded in 30 ms
-	- Parsing - 19 ms
-	- DOM Prepare - 1 ms
-	- Conversion - 9 ms
+[INFO]: FBX "data/models/m4.FBX" loaded in 921 ms
+	- Parsing - 408 ms
+	- DOM Prepare - 6 ms
+	- Conversion - 504 ms
 [INFO]: Model "data/models/m4.FBX" is loaded!
 [INFO]: Resource data/models/m4.FBX was successfully embedded into physics world!
-[INFO]: Texture "data/textures/M4_Magazine_normal.png" is loaded in 64.2267ms!
-[INFO]: Texture "data/textures/M4_Magazine.png" is loaded in 68.0138ms!
-[INFO]: Texture "data/textures/M4_Sight_normal.png" is loaded in 69.1125ms!
-[INFO]: Texture "data/textures/M4_Sight.png" is loaded in 79.018ms!
-[INFO]: Texture "data/textures/M4_Body.png" is loaded in 80.772ms!
-[INFO]: Texture "data/textures/M4_Body_normal.png" is loaded in 83.8923ms!
 [INFO]: Shader GBufferShader_VertexShader compiled!
 
 [INFO]: Shader GBufferShader_FragmentShader compiled!
@@ -213,4 +207,10 @@
 
 [INFO]: Shader GBufferShader linked!
 
-[INFO]: Texture "data/textures/spark.png" is loaded in 18.7266ms!
+[INFO]: Texture "data/textures/M4_Sight.png" is loaded in 2.8331199s!
+[INFO]: Texture "data/textures/M4_Magazine.png" is loaded in 2.9431366s!
+[INFO]: Texture "data/textures/M4_Sight_normal.png" is loaded in 3.0254896s!
+[INFO]: Texture "data/textures/M4_Magazine_normal.png" is loaded in 3.1872007s!
+[INFO]: Texture "data/textures/M4_Body.png" is loaded in 3.1530905s!
+[INFO]: Texture "data/textures/M4_Body_normal.png" is loaded in 3.4338727s!
+[INFO]: Texture "data/textures/spark.png" is loaded in 364.9635ms!

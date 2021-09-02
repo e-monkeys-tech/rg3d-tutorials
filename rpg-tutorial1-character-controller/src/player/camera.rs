@@ -103,12 +103,12 @@ impl CameraController {
 async fn create_skybox(resource_manager: ResourceManager) -> SkyBox {
     // Load skybox textures in parallel.
     let (front, back, left, right, top, bottom) = rg3d::core::futures::join!(
-        resource_manager.request_texture("data/textures/skybox/front.jpg"),
-        resource_manager.request_texture("data/textures/skybox/back.jpg"),
-        resource_manager.request_texture("data/textures/skybox/left.jpg"),
-        resource_manager.request_texture("data/textures/skybox/right.jpg"),
-        resource_manager.request_texture("data/textures/skybox/up.jpg"),
-        resource_manager.request_texture("data/textures/skybox/down.jpg")
+        resource_manager.request_texture("data/textures/skybox/front.jpg", None),
+        resource_manager.request_texture("data/textures/skybox/back.jpg", None),
+        resource_manager.request_texture("data/textures/skybox/left.jpg", None),
+        resource_manager.request_texture("data/textures/skybox/right.jpg", None),
+        resource_manager.request_texture("data/textures/skybox/up.jpg", None),
+        resource_manager.request_texture("data/textures/skybox/down.jpg", None)
     );
 
     // Unwrap everything.
